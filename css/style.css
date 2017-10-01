@@ -589,10 +589,9 @@ p {
 }
 
 .portfolio-item {
-  position: relative;
   width: 364px;
   height: 348px;
-  text-align: center;
+  overflow: hidden;
 }
 
 .portfolio-item:hover .portfolio-pic {
@@ -618,13 +617,10 @@ p {
 }
 
 .portfolio-desc {
+  position: absolute;
   font-size: 24px;
   color: #555;
-}
-
-.portfolio-item:hover .portfolio-desc {
-  color: #087125;
-  font-size: 18px;
+  margin-left: 182px;
 }
 
 .portfolio-pic {
@@ -678,7 +674,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   padding: 15px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 50%;
 }
 
@@ -700,6 +696,22 @@ p {
   -webkit-transition: all 1s;
   -o-transition: all 1s;
   transition: all 1s;
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background: #646464;
+  padding: 7px 23px;
+}
+
+.btn-box:hover .btn {
+  border-color: #9a0808;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  color: #9a0808;
 }
 
 /*# sourceMappingURL=style.css.map */
