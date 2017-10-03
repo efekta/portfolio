@@ -17,10 +17,11 @@
 .title {
 	width: 500px;
 	text-align: center;
+	font-size: 2rem;
 }
 .head__title {
 	position: relative;
-	font-size: 48px;
+	font-size: 2rem;
 	padding-bottom: 28px;
 }
 .head__title::after {
@@ -32,6 +33,9 @@
 	height: 3px;
 	background: #fff;
 	opacity: 0.6;
+}
+.head__sub-title {
+	font-size: 2rem;
 }
 .main-arrow {
 	height: 3rem;
@@ -51,14 +55,15 @@
 
 .portfolio {
 	width: 100vw;
-	height: 100vh;
+	// height: 100vh;
 	background: #fff;
 	color: #555555;
+	margin-bottom: 150px;
 }
 .portfolio__title {
 	display: flex;
 	justify-content: center;
-	font-size: 36px;
+	font-size: 2rem;
 	font-weight: bold;
 	color: #333;
 	text-transform: uppercase;
@@ -108,17 +113,18 @@
 }
 //FOOTER
 .footer {
-	min-height: 240px;
+	// min-height: 240px;
 	background: #646464;
 	color: #fff;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	// display: flex;
+	// justify-content: space-between;
+	// align-items: center;
 	text-align: center;
-	margin-top: 50px;
+	padding: 30px 0;
 }
 .footer-box {
-	width: 33.3%;
+	display: inline-block;
+	padding: 0 85px;
 }
 .social__list {
 	font-size: 0;
@@ -174,6 +180,9 @@
 	}
 	.portfolio-item {
 		margin-bottom: 80px;
+	}
+	.footer-box {
+    display: block;
 	}
 }
 
