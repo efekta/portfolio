@@ -686,6 +686,7 @@ p {
 
 .footer-box {
   display: inline-block;
+  vertical-align: middle;
   padding: 0 85px;
 }
 
