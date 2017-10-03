@@ -477,7 +477,6 @@ body {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  height: 100%;
 }
 
 .content {
@@ -752,6 +751,10 @@ p {
 @media (max-width: 1200px) {
   .container {
     width: auto;
+  }
+  .portfolio__title {
+    padding: 40px 0;
+    font-size: 1.5rem;
   }
   .portfolio__work {
     -webkit-box-orient: vertical;
