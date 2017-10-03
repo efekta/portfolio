@@ -55,10 +55,9 @@
 
 .portfolio {
 	width: 100vw;
-	// height: 100vh;
 	background: #fff;
 	color: #555555;
-	margin-bottom: 150px;
+	margin-bottom: 130px;
 }
 .portfolio__title {
 	display: flex;
@@ -70,7 +69,6 @@
 	padding: 80px 0;
 }
 .portfolio-item {
-	// display: inline-block;
 	width: 364px;
     height: 348px;
     overflow: hidden;
@@ -88,7 +86,6 @@
 }
 
 .portfolio__work {
-	// text-align: center;
 	display: flex;
 	justify-content: space-between;
 }
@@ -113,12 +110,8 @@
 }
 //FOOTER
 .footer {
-	// min-height: 240px;
 	background: #646464;
 	color: #fff;
-	// display: flex;
-	// justify-content: space-between;
-	// align-items: center;
 	text-align: center;
 	padding: 30px 0;
 }
@@ -174,6 +167,9 @@
 @media (max-width: 1200px) {
 	.container {
 		width: auto;
+	}
+	.portfolio {
+		margin-bottom: 10px;
 	}
 	.portfolio__title {
 		padding: 40px 0;
